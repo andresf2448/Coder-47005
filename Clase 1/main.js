@@ -40,14 +40,14 @@ bloque
 
 // console.log(saludoCompleto);
 
-// let nombre = prompt("Ingrese su nombre");
-// alert(nombre);
+let nombre = prompt("Ingrese su nombre");
+alert("Hola " + nombre);
 
 // let numero = prompt("Ingrese un numero");
 // alert(parseInt(numero) + 10);
 
-let numero = 8;
-let nombre = "andres";
+// let numero = 8;
+// let nombre = "andres";
 
-console.log(typeof numero);
-console.log(typeof nombre);
+// console.log(typeof numero);
+// console.log(typeof nombre);
