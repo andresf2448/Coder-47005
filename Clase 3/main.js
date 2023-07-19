@@ -14,7 +14,7 @@ for(desde; hasta; actualizacion){
 // let numero = parseInt(prompt("Ingrese el numero"));
 
 // for(let i = 1; i <= 10; i++){
-//   console.log(7 * i);
+//   alert(`${numero} X ${i} = ${numero * i}`);
 // }
 
 // console.log(7 * 1);
@@ -130,21 +130,21 @@ switch(valor){
 //     break;
 // }
 
-let entrada = prompt("Ingresar un nombre");
+// let entrada = prompt("Ingresar un nombre");
 
-while ("ESC" != "ESC") {
-  switch (entrada) {
-    case "ANA":
-      alert("Hola ANA");
-      break;
+// while (entrada != "ESC") {
+//   switch (entrada) {
+//     case "ANA":
+//       alert("Hola ANA");
+//       break;
 
-    case "JUAN":
-      alert("Hola JUAN");
-      break;
+//     case "JUAN":
+//       alert("Hola JUAN");
+//       break;
 
-    default:
-      alert("Quién eres?");
-      break;
-  }
-  entrada = prompt("Ingresar un nombre");
-}
+//     default:
+//       alert("Quién eres?");
+//       break;
+//   }
+//   entrada = prompt("Ingresar un nombre");
+// }
