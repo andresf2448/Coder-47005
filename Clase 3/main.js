@@ -130,21 +130,21 @@ switch(valor){
 //     break;
 // }
 
-// let entrada = prompt("Ingresar un nombre");
+let entrada = prompt("Ingresar un nombre");
 
-// while (entrada != "ESC") {
-//   switch (entrada) {
-//     case "ANA":
-//       alert("Hola ANA");
-//       break;
+while (entrada != "ESC") {
+  switch (entrada) {
+    case "ANA":
+      alert("Hola ANA");
+      break;
 
-//     case "JUAN":
-//       alert("Hola JUAN");
-//       break;
+    case "JUAN":
+      alert("Hola JUAN");
+      break;
 
-//     default:
-//       alert("Quién eres?");
-//       break;
-//   }
-//   entrada = prompt("Ingresar un nombre");
-// }
+    default:
+      alert("Quién eres?");
+      break;
+  }
+  entrada = prompt("Ingresar un nombre");
+}
