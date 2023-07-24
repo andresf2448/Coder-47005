@@ -38,6 +38,7 @@ let cantidadDivisores = 0;
 
 for (let i = 1; i <= numero; i++) {
   if (numero % i === 0) {
+    alert("divisores " + i);
     cantidadDivisores++;
   }
 }
