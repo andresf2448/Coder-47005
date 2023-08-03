@@ -35,16 +35,16 @@
 // console.log(resta(5, 6));
 
 //funcion de alto orden que recibe un arreglo y una funcion
-// function iterador(arreglo, funcion) {
+function iterador(arreglo, funcion) {
 
-//   //recorremos el arreglo
-//   for (const numero of arreglo) {
-//     //por cada elemento del arreglo le aplicamos la funcion pasada por parametro
-//     funcion(numero);
-//   }
-// }
+  //recorremos el arreglo
+  for (const numero of arreglo) {
+    //por cada elemento del arreglo le aplicamos la funcion pasada por parametro
+    funcion(numero);
+  }
+}
 
-// iterador([4, 5, 6, 87], console.log);
+iterador([4, 5, 6, 87], console.log);
 
 // const productos = [
 //   { id: 1, nombre: "camisa", precio: 1000 },
