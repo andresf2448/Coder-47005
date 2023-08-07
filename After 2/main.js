@@ -69,3 +69,4 @@ console.log(producto1);
 producto1.vender();
 producto1.vender();
 producto1.vender();
+
