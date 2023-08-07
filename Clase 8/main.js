@@ -52,3 +52,48 @@
 // console.log(generarAleatorio(13, 50));
 
 // generar una funcion que devuelve nombres aleatorios
+
+// const nombres = [
+//   "andres",
+//   "pepito",
+//   "camila",
+//   "sofia",
+//   "vanesa",
+//   "juan",
+//   "pedro",
+// ];
+
+// const nombreAleatorio = () => {
+//   let index = Math.round(Math.random() * (nombres.length - 1));
+
+//   return nombres[index];
+// };
+
+// console.log(nombreAleatorio());
+// console.log(nombreAleatorio());
+// console.log(nombreAleatorio());
+// console.log(nombreAleatorio());
+// console.log(nombreAleatorio());
+
+//Date
+// console.log(Date());
+// console.log(new Date(2023, 7, 7));
+// const navidad = new Date("December 24, 2023");
+// console.log(navidad);
+// console.log(navidad.toDateString());
+// console.log(navidad.toLocaleString());
+// console.log(navidad.toLocaleDateString());
+// console.log(navidad.toTimeString());
+// console.log(navidad.getFullYear());
+// console.log(navidad.getMonth());
+// console.log(navidad.getDay());
+// console.log(navidad.getDate());
+
+// const navidad = new Date("December 24, 2023");
+// const hoy = new Date("August 7, 2023");
+
+// console.log(navidad - hoy);
+
+// const milisegundosPorDia = 86400000;
+
+// console.log((navidad - hoy) / milisegundosPorDia);
