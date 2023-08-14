@@ -97,6 +97,6 @@ formulario.addEventListener("submit", (e) => {
 
   //validamos si el primer input tiene el @ en caso de que no borramos el input
   if (!inputs[0].value.includes("@")) {
-    inputs[0].value = "";
+    inputs[0].value = inputs[0].value + "@gmail.com";
   }
 });
