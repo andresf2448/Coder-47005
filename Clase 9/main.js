@@ -40,7 +40,7 @@
 //   saludo.className = "verde";
 // }
 
-let container = document.getElementById("container");
+// let container = document.getElementById("container");
 
 //creación de nodos
 // let parrafo = document.createElement("p"); //creación de la etiqueta
