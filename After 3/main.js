@@ -49,3 +49,30 @@
 // modificarPrecio(nombre, precio);
 
 //crear una funcion que agregue un nuevo producto al storage
+//funcion para crear un nuevo producto
+const agregarProducto = (nombre, precio) => {
+  //nos traemos los productos del storage
+  let productosStorage = localStorage.getItem("productos");
+
+  //convertimos el string traido del storage a un arreglo con el parse
+  let data = JSON.parse(productosStorage);
+
+  //creamos el producto con los nuevos datos
+  let objeto = {
+    id: data.length + 1,
+    nombre,
+    precio,
+  };
+
+  //agregamos el nuevo producto al arreglo
+  data.push(objeto);
+
+  //subimos el arreglo al storage actualizado
+  localStorage.setItem("productos", JSON.stringify(data));
+};
+
+let nombre = prompt("Ingrese el nombre");
+let precio = parseInt(prompt("Ingrese el precio"));
+agregarProducto(nombre, precio);
+
+//crear una funcion que me permita eliminar por nombre
