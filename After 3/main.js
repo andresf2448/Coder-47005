@@ -75,4 +75,4 @@ let nombre = prompt("Ingrese el nombre");
 let precio = parseInt(prompt("Ingrese el precio"));
 agregarProducto(nombre, precio);
 
-//crear una funcion que me permita eliminar por nombre
+//crear una funcion que me permita eliminar por nombre (utilizar el filter)
