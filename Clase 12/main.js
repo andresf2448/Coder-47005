@@ -194,7 +194,7 @@ valor1 || valor2 retorna valor1 si este es verdadero, en caso contrario retorna 
 
 // console.log(c, d);
 
-const info = ["Rodrigo", "Sarain"];
-const [nombre, apellido] = info;
+// const info = ["Rodrigo", "Sarain"];
+// const [nombre, apellido] = info;
 
-console.log(nombre, apellido);
+// console.log(nombre, apellido);
