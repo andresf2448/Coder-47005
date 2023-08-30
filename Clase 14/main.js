@@ -6,7 +6,7 @@
 //   'success'
 // )
 
-let boton = document.getElementById("boton");
+// let boton = document.getElementById("boton");
 
 // boton.addEventListener("click", () => {
 //   Swal.fire({
@@ -158,13 +158,40 @@ let boton = document.getElementById("boton");
 
 // console.log(resta.toLocaleString(DateTime.DATETIME_SHORT));
 
-const DateTime = luxon.DateTime;
-const Interval = luxon.Interval;
-const now = DateTime.now();
-const navidad = DateTime.local(2023, 12, 25);
+// const DateTime = luxon.DateTime;
+// const Interval = luxon.Interval;
+// const now = DateTime.now();
+// const navidad = DateTime.local(2023, 12, 25);
 
-const i = Interval.fromDateTimes(now, navidad);
+// const i = Interval.fromDateTimes(now, navidad);
 
-console.log(i.length("days"));
-console.log(i.length("hours"));
-console.log(i.length("minutes"));
+// console.log(i.length("days"));
+// console.log(i.length("hours"));
+// console.log(i.length("minutes"));
+const usuarios = [{ nombre: "andres", contrasena: "1234" }];
+
+let formulario = document.getElementById("formulario");
+
+formulario.addEventListener("submit", (e) => {
+  e.preventDefault();
+
+  let inputs = e.target.children;
+  let nombre = inputs[0].value;
+  let contrasena = inputs[1].value;
+
+  let usuario = usuarios.find((item) => item.nombre === nombre);
+
+  if (usuario.contrasena === contrasena) {
+    let div = document.createElement("div");
+    div.innerHTML = "Bienvenido";
+    document.body.append(div);
+  }else{
+    let div = document.createElement("div");
+    div.innerHTML = "Usuario o contrasena incorrectas";
+    document.body.append(div);
+  }
+
+  //traer el localstorage
+  //buscar el nombre del usuario en el storage
+  //validar que la contrasena sea igual a la de la info recuperada del storage
+});
